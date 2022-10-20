@@ -1,0 +1,35 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+:root {
+  ---color-body: #f0ebce;
+  ---color-text: #395144;
+  ---color-header: rgb(78, 108, 80);
+  ---color-renk: #f0ebce;
+}
+body {
+  background-color: var(---color-body);
+  background: url(https://images.unsplash.com/photo-1620820186187-fc32e79adb74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
+}
+
+.navbar {
+  background-color: var(---color-header);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ts-1 {
+  color: var(---color-renk);
+  z-index: 1;
+  font-size: xx-large;
+  background-color: var(---color-header);
+}
+p {
+  font-size: 900px;
+}
+a {
+  color: white;
+}
+.btn-sty {
+  background-color: var(---color-text);
+  color: var(---color-body);
+}
